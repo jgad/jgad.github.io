@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<TITLE>Prueba 1</TITLE>
+   		<link href="web.css" rel="stylesheet" type="text/css">
+		<META charset="utf-8">
+	</head>
+	<body>
+		<header >
+			<h1>< Taller de Sistemas I ></h1>
+		</header>
+		<nav>
+			<a href="index.html">Inicio</a><br/>
+			<a href="datos.html">Datos Personales</a><br/>
+			<a href="estudio.html">Estudios</a><br/>
+			<a href="experiencia.html">Experencia laboral</a><br/>
+			<a href="hobbie.html">Hobbies</a><br/>
+			<a href="extra.html">Extra</a><br/>
+			<a href="contacto.html">Contacto</a>
+		</nav>
+		<section>
+			<h1>Contacto.</h1>
+			<article>
+				<form id="contacto" name="contacto" action="mailto:jonathan.inf@outlook.com?subject=Ejemplo de formulario" method="post" enctype="text/plain">
+					<fieldset>
+						<table>
+							<tr>
+									<td><label>Rut :</label></td>
+									<td><input type="text" id="rut" required="true" placeholder="Ej.XXXXXXXX-X" /></td>
+							</tr>
+							<tr>
+									<td><label>Nombre :</label></td>
+									<td><input type="text" id="nombre" required="true" placeholder="Juan Perez" /></td>
+							</tr>
+							<tr>
+									<td><label>Email :</label></td>
+									<td><input type="email" id="correo" placeholder="xxxx@xxxx.xx"></i></td>
+							</tr>
+							<tr>
+									<td><label>Usuario :</label></td>
+									<td><input type="radio" name="usuario" value="Compañero" checked="checked"/>Compañero<input type="radio" name="usuario" value="Profesor"/>Profesor<input type="radio" name="usuario" value="visita"/>Visita</td>
+							</tr>
+							<tr>
+									<td><label>Prioridad del mensaje :</label></td>
+									<td><select name="prioridad" required="true">
+									<option value="ninguna">Ninguna</option>
+									<option value="baja">Baja</option>
+									<option value="alta">Alta</option>
+							</select>
+						</td>
+
+							</tr>
+							<tr>
+									<td><label>Adjuntar algun archivo : </label></td>
+									<td><input type="file" name="archivo" size="30" required="true"/></td>
+							</tr>
+							<tr>
+									<td><label>Comentario</label></td>
+									<td><textarea name="comentario" rows="3" cols="60" >Haz tu comentario aqui...</textarea></td>
+							</tr>
+							<tr>
+
+
+									<td><input type="submit" id="bt" value="Enviar"/></td>
+
+							</tr>
+						</table>
+					</fieldset>
+				</form>
+			</article>
+		</section>
+		<footer>
+			JGAD & DD / Taller de Sistemas I - Otoño 2016
+		</footer>
+	</body>
+</html>
